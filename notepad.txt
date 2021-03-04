@@ -1,0 +1,2 @@
+bicep build appPlan.bicep
+az deployment sub create -f ./main.bicep -l westeurope -c
